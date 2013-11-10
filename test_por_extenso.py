@@ -1,5 +1,4 @@
 import unittest
-import por_extenso
 from por_extenso import valor_por_extenso_de
         
 class TestPorExtenso(unittest.TestCase):

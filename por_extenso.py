@@ -70,7 +70,7 @@ def frasear(valor_convertido, e_centavos):
     
 def valor_por_extenso_de(um_numero):
     parte_inteira, os_centavos = str(um_numero).split('.')
-    print parte_inteira, os_centavos
+    # print parte_inteira, os_centavos
         
     return frasear(filter(bool, [a_conversao_d(a_centena, *na_ordem_d[a_grandeza]) 
                                  for a_grandeza, a_centena in enumerate(em_grupos_de_tres_a(parte_inteira))]),
